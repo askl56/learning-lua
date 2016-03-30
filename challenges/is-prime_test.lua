@@ -1,4 +1,4 @@
-dofile("is-prime.lua")
+dofile("./is-prime.lua")
 
 function test_is_prime()
   assert(is_prime(1) == true)

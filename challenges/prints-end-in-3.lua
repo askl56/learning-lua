@@ -4,8 +4,8 @@
 --
 -- $ lua n-primes.lua NUM_PRIMES
 
-dofile("ends-in-3.lua")
-dofile("is-prime.lua")
+dofile("./ends-in-3.lua")
+dofile("./is-prime.lua")
 
 -- Prints the first n primes that end in 3
 function n_primes(n)

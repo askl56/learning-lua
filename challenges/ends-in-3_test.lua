@@ -1,4 +1,4 @@
-dofile("ends-in-3.lua")
+dofile("./ends-in-3.lua")
 
 function test_ends_in_3()
   assert(ends_in_3(3) == true)
@@ -10,6 +10,8 @@ function test_ends_in_3()
   assert(ends_in_3(0) == false)
   assert(ends_in_3(10) == false)
   assert(ends_in_3(33333334) == false)
+
+  print("Tests pass.")
 end
 
 test_ends_in_3()
