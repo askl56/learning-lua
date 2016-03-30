@@ -4,8 +4,9 @@
 
 function ends_in_3(num)
   local lastdigit = num % 10
+  local last_digit_is_3 = false
   if lastdigit == 3 then
-    return true
+    last_digit_is_3 = true
   end
-  return false
+  print(last_digit_is_3)
 end
