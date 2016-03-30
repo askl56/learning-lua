@@ -2,7 +2,7 @@
 -- to test if a number is prime
 -- (that is, it’s divisible only by itself and 1).
 
-function isPrime(n)
+function is_prime(n)
   primes={}
   if n<=0 then return false end
   if n<=2 then return true end
@@ -12,5 +12,3 @@ function isPrime(n)
   end
   return true
 end
-
-print(isPrime(2312112313))
