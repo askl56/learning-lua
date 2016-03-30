@@ -4,7 +4,7 @@
 
 function for_loop(a, b, f)
   local i = a
-  while i <= b
+  while i <= b do
     f(i)
   end
 end
