@@ -33,3 +33,7 @@ book.pages = nil​
 -- Lua doesn’t ship with a function to print the contents of a table.
 -- Fortunately, we can define a simple one that will work for these first few examples
 
+> print_tables(book)
+-- author : Henry Jones
+-- title : Grail Diary
+-- pages : 100
